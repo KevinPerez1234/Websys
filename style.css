@@ -41,6 +41,8 @@ nav ul li{
     
 }
 
+
+
 nav ul li a{
 color: #F9F9F9;
 display: inline;
@@ -77,15 +79,12 @@ aside{
 
 aside h2{
 
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 20px 20px 0px 20px;
 }
-aside ol{
-    margin: 20px 20px 20px 20px;
-
-}
-aside ol li{
-
+aside ul {
+margin: 0px 20px 0px 20px;
+padding: 20px 20px 20px 20px;
 }
 footer{
     color: #F9F9F9;
