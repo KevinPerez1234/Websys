@@ -1,9 +1,82 @@
+body html {
+
+}
+
 *{
 margin: 0;
 padding: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.flex-container{
+flex-direction: row;
+align-content: center;
+gap: 10px;
+align-items: center;
+justify-content: center;
+display: flex;
+width: 1000px;
+height: 800px;
+border: 5px solid black;
+padding: 0px 20px 20px 0px
+
+
+}
+
+.flex-container4 {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.flex-container4 *> {
+flex-direction: row;
+justify-content: space-evenly;
+margin: 0px;
+}
+
+
+.flex-container2 {
+display: flex;
+align-content: center;
+}
+
+
+.flex-container3 *>{
+display: flex;
+align-content: center;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 5px;
+
+}
+
+
+
+.flex-container section {
+     width: 200px;
+     height: 200px;
+     border: 5px solid black;
+     margin: 0px 0px 0px 0px;
+    
+}
+
+
+.flex-items-3{
+order: 0;
+flex-grow: 0.2;
+}
+
+.flex-items-1{
+order: 1;
+flex-grow: 0.5;
+}
+
+.flex-items-2{
+order: -1;
+flex-shrink: 1;
+}
 
 .Box-1{
 /*BOX NI BEBEN*/
@@ -74,6 +147,8 @@ section p{
 
 aside{
     background-color: #F9F9F9;
+    flex: 0 0 25%;
+    padding: 10px;
 }
 
 
